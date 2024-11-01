@@ -1,13 +1,101 @@
-<div class="skills-section">
-   <h2>My Skills</h2>
-   <ul class="skills-list">
-      <li><strong>HTML:</strong> Advanced</li>
-      <li><strong>CSS:</strong> Advanced</li>
-      <li><strong>JavaScript:</strong> Advanced</li>
-      <li><strong>AngularJS:</strong> Intermediate</li>
-      <li><strong>Node.js:</strong> Intermediate</li>
-      <li><strong>Tailwind CSS:</strong> Intermediate</li>
-      <li><strong>Bootstrap:</strong> Advanced</li>
-      <li><strong>Material Design:</strong> Intermediate</li>
-   </ul>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">My Profile</h1>
+            <p class="text-xl mt-2">Web Developer | Front-end & Back-end Enthusiast</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="container mx-auto my-8 p-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+        <p>Hello! I'm a passionate web developer with experience in both front-end and back-end development. I love creating dynamic and responsive websites with the latest technologies.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container mx-auto my-8 p-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">My Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">HTML</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">CSS</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">JavaScript</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">AngularJS</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">Node.js</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">Tailwind CSS</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">Bootstrap</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-item">
+                <h3 class="text-xl font-medium">Material Design</h3>
+                <p>Intermediate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container mx-auto my-8 p-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="project-item bg-gray-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold">Project 1</h3>
+                <p class="text-gray-700">Description of project 1, showcasing the main features and technologies used.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="project-item bg-gray-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold">Project 2</h3>
+                <p class="text-gray-700">Description of project 2, with a focus on the design and backend functionalities.</p>
+                <p><strong>Technologies:</strong> AngularJS, Node.js</p>
+            </div>
+            <div class="project-item bg-gray-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold">Project 3</h3>
+                <p class="text-gray-700">Description of project 3, highlighting responsive design and user experience.</p>
+                <p><strong>Technologies:</strong> Tailwind CSS, Bootstrap</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container mx-auto my-8 p-6 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
+        <p>If you would like to connect, feel free to reach out via email or social media:</p>
+        <ul class="list-disc list-inside mt-4">
+            <li>Email: <a href="mailto:your-email@example.com" class="text-blue-500">your-email@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" class="text-blue-500">LinkedIn Profile</a></li>
+            <li>GitHub: <a href="https://github.com/your-username" class="text-blue-500">GitHub Profile</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2024 My Profile. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
